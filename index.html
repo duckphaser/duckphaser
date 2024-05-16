@@ -9,28 +9,20 @@
     <meta name="format-detection" content="telephone=no" />
     <meta name="keywords" content="" />
     <meta name="description" content="" />
-    <meta name="author" content="ComDotty Web Services - Copyright - Duck Phaser Comedy Club 2020">
+    <meta name="author" content="ComDotty Web Services - Copyright - Duck Phaser Comedy Club 2024">
 	
 	<!-- Open Graph -->
 	<meta property="og:url" content="http://www.duckphaser.co.uk">
 	<meta property="og:type" content="website">
-	<meta property="og:image" content="http://www.duckphaser.co.uk/res/lg_logo.jpg">
+	<meta property="og:image" content="http://www.duckphaser.co.uk/res/logo-circle.png">
 	<meta property="og:image:width" content="512">
 	<meta property="og:image:height" content="512">
-	<meta property="og:title" content="Duck Phaser Comedy Club | Home">
+	<meta property="og:title" content="Duck Phaser Comedy Club">
 	<meta property="og:description" content="A small, but growing, professional comedy club in the heart of Swansea City Centre.">
 	<meta property="og:site_name" content="Duck Phaser Comedy Club">
 	<meta property="fb:app_id" content="1543836549033847">
 	
-	<!-- Twitter Card -->
-	<!-- <meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:site" content="">
-	<meta name="twitter:title" content="Duck Phaser Comedy Club | Home">
-	<meta name="twitter:description" content="A small, but perfectly formed, professional comedy club in the heart of Swansea City Centre">
-	<meta name="twitter:image" content="http://www.duckphaser.co.uk/res/lg_logo.jpg">
-	<meta name="twitter:image:alt" content=""> -->
-	
-    <title>Duck Phaser Comedy Club | Home</title>
+    <title>Duck Phaser Comedy Club | Welcome</title>
 	
 	<link rel="alternate" hreflang="en-gb" href="http://www.duckphaser.co.uk">
 	
@@ -49,61 +41,89 @@
 
 	<style>
 
-	@import url('https://fonts.googleapis.com/css?family=Radley&display=swap');
+	* {
+		font-family: Britannic, Verdana, Helvetica, sans-serif;
+	}
+	 
+	body {
+		 background-color: #000000;
+		 margin: 20px;
+	}
 
 	html {
     	 width: 100%;
     	 height: 100%;
 	}
-
-	body {
-		 background-color: #000000;
-		 margin: 25px;
-	}
+	
 	hr { 
 	    border: 1px solid white; 
 		width: 100%;
 	}
-	.titletext {
-		font-size: 1.8em;
-		font-weight: 600;		
+	
+	.pgtitletext {
+		padding-top: 60px;
+		font-size: 5vw;
+		letter-spacing: 4px;
+		line-height: 0.4;
+		font-weight: 500;		
 		color: #ffffff;
 	}
+	
+	.booknowlink {
+		font-size: 2.5vw;
+		letter-spacing: 1px;
+		line-height: 0.4;
+		font-weight: 400;
+		color: green;
+	}	
+	
+	.booknowlink:hover {
+		text-decoration: underline;
+		color: green;		
+	}	
+	
+	.locationtext {
+		font-size: 3vw;
+		letter-spacing: 1px;
+		font-weight: 400;		
+		color: #ffffff;
+	}	
+	
+	.copysubtitletext {
+		font-family: Verdana, Helvetica, sans-serif;
+		font-size: 1.0em;
+		font-weight: 600;
+		color: #ffffff;
+	}
+
 	.copytext {
+		font-family: Verdana, Helvetica, sans-serif;
 		font-size: 1.0em;
 		color: #ffffff;
 	}
-	 .scaledimg {
+	
+	.logoimg {
+	 	max-width: 100%; 
+	 	height: auto;
+		padding-bottom: 10px;
+	 }
+
+	.scaledimg {
 	 	max-width: 100%; 
 	 	height: auto;
 		padding-bottom: 25px;
 	 }
+	
 	.pagelink {
 		font-size: 1.0em;
 		font-weight: 600;
 		color: #ffffff;
 	 }
+	
 	.pagelink:hover {
 		color: #ffffff;
 	 }
-	.oldbookinglink {
-		font-size: 1.2em;
-		font-weight: 600;
-		color: #ffffff;
-		text-decoration: line-through;
-	 }
-	.oldbookinglink:hover {
-		text-decoration: line-through;	
-		color: #ffffff;
-	 }
-	.bookinglink {
-		font-size: 1.2em;
-		font-weight: 600;
-		color: #ffffff;
-	 }
-	.bookinglink:hover {
-		color: #ffffff;
-	 }	 
+		
 	</style>
 	
 </head>
@@ -121,57 +141,37 @@
 
 <div class="container">
 	 <div class="row">
-	 	  <div class="col-lg-3 col-md-3 col-sm-12 text-center"><img src="res/logo.jpg" class="scaledimg">
+	 	  <div class="col-lg-3 col-md-3 col-sm-12 text-center"><img src="res/logo-circle.png" class="logoimg">
 		  </div>
-	 	  <div class="col-lg-9 col-md-9 col-sm-12"><p class="titletext">Duck Phaser Comedy Clubs</p>
-		  <p class="copytext">Big Night Out comedy at an affordable price in the heart of Swansea's cultural 
-		  centre. The Garage is the cornerstone of entertainment in the The Uplands. With this performance 
-		  venue downstairs, the Garage also boasts its game room bar, Whitez upstairs and a swanky late night 
-		  cocktail party penthouse in The Terrace above that. It's a perfect way to kick your weekend into gear. 
-		  So come see a show and then stick around for the after party!</p>
-		  <p class="copytext">web:&nbsp;<a href="http://www.duckphaser.co.uk" class="pagelink" target="_self">http://www.duckphaser.co.uk</a><br />
-		  e-mail:&nbsp;<a href="mailto:info@duckphaser.co.uk" class="pagelink">info@duckphaser.co.uk</a></p>
+	 	  <div class="col-lg-9 col-md-9 col-sm-12">
+		  <p class="pgtitletext" align="center">LIVE STAND-UP COMEDY</p>
+		  <p class="locationtext" align="center">@ the Cross Keys, Swansea, SA1 3LH</p>
+		  <p align="center"><a href="#" class="booknowlink">CLICK HERE TO BOOK NOW!</a></p>
 		  </div>
 	 </div>
 	 
 	 <hr>
 	 
 	 	 <div class="row">
-	 	  <div class="col-lg-6 col-md-6 col-sm-12 text-center"><img src="res/dp_09042020.jpg" class="scaledimg"><br />
+	 	  <div class="col-lg-6 col-md-6 col-sm-12 text-center"><img src="res/dp-web-240529.png" class="scaledimg"><br />
 		  </div>
 	 	  <div class="col-lg-6 col-md-6 col-sm-12">
+		  <p class="copysubtitletext text-justify">Duck Phaser Comedy Club @ the Cross Keys, Swansea Presents Dani Johns and David Hoare - Wednesday 29th May 2024.</p> 
 		  <p class="copytext text-justify">
-		  <strong>Duck Phaser @ The Garage - Thursday 9th April<br />Freddy Quinne at Duck Phaser Comedy Club.</strong></p> 
-		  <p class="copytext text-justify">
-		  Freddy Quinne is one of the most sought after acts in the UK.  His improvisational skills make him 
-		  an exciting act to watch and his skills as a compere are so respected he has written a book all about 
-		  how to master the elusive skill many struggle to develop.
-		  </p>		  
-		  <p class="copytext text-justify">
-		  Support comes in the form of Paul Dennis, usually your resident MC but tonight gives you a blast of 
-		  his skewed philosophies and twisted histories and Dani Johns, tipped by heavyweight Mark Olver as a 
-		  rising star.
 		  </p>
-		  <p class="copytext text-justify">
-		  This month's show is glued seamlessly together by the irresistible malcontent, LIAM PICKFORD, whose 
-		  "scattergun mind" will pepper you with gags you never even realised were possible.
+		  <p class="copysubtitletext text-justify">Line Up:</p>
+		  <p class="copytext">Dani Johns<br />
+		  David Hoare<br /> 
+		  Your host - Paul Dennis<br /> 
 		  </p>
-		  <p class="copytext text-justify"><strong>Line Up:</strong><br />
-		  Freddie Quinne<br />
-		  Paul Dennis<br /> 
-		  Dani Johns<br /> 
-		  and Liam Pickford<br /> 
-		  </p>
-		  <p class="copytext text-justify"><strong>Age Restrictions:</strong><br />
-		  18 </p>
-		  <p class="copytext text-justify"><strong>Venue opens at:</strong><br />
-		  7:00PM </p>
-		  <p class="copytext text-justify"><strong>Venue closes at:</strong><br />
-		  11:00PM </p>
-		  <p class="copytext text-justify"><strong>Other Information:</strong><br />
-		  Line up subject to change, unfortunately we are unable to provide refunds. 
-		  100 seats are available but the venue capacity allows for a standing in 
-		  the bar area.</p>
+		  <p class="copysubtitletext text-justify">Age Restrictions:</p>
+		  <p class="copytext">18 and over</p>
+		  <p class="copysubtitletext text-justify">Venue opens at:</p>
+		  <p class="copytext">7:00PM </p>
+		  <!-- <p class="copysubtitletext text-justify">Venue closes at:</p>
+		  <p class="copytext">11:00PM </p> -->
+		  <p class="copysubtitletext text-justify">Other Information:</p>
+		  <p class="copytext">Line up subject to change, unfortunately we are unable to provide refunds.</p>
 		  <!-- <p align="right"><a href="https://www.jokepit.com/organisers/584/events/2812" class="bookinglink" target="_blank" rel="noopener nofollow">Book Tickets</a></p> -->
 		  </div>
 	 </div>
@@ -180,7 +180,7 @@
 	 
 	 <div class="row">
 	 	  <div class="col-lg-6 col-md-6 col-sm-12 text-center">
-		  <p class="copytext">The Garage Music Venue<br />47 Uplands Terrace, Swansea, SA2 0NP, UK</p>
+		  <p class="copytext">Olde Cross Keys Swansea<br />12 St. Mary Street, Swansea, SA1 3LH, UK</p>
 		  </div>
 	 	  <div class="col-lg-6 col-md-6 col-sm-12 text-center">
 		  	<span class="copytext">Find us on Facebook</span><br />
